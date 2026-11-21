@@ -118,7 +118,23 @@ Ce que j'en retiens, c'est la partie que l'IA ne fait pas à ta place : savoir e
 
 Utilisée tous les jours depuis novembre 2026. Le code est privé car il contient mes données personnelles. La démo, les captures et la vidéo utilisent un compte avec **des données fictives**. Je peux faire une présentation ou donner accès au code sur demande.
 
-**La suite :** l'import de mes séances de sport Hevy, l'export des données.
+## Problèmes résolus et choix faits en route
+
+- **Des notifications à la minute sans payer.** L'offre gratuite de Vercel ne lance une tâche planifiée qu'une fois par jour. J'ai déplacé la planification dans la base de données, qui vérifie chaque minute ce qu'il faut envoyer.
+- **Les pas comptés tout seuls.** Une habitude « 8 000 pas » qu'il fallait cocher à la main, c'était un oubli assuré. L'iPhone envoie maintenant le nombre de pas à Nexus via l'app Raccourcis, et l'habitude se coche toute seule.
+- **Un cours affiché en double.** Un cours copié de l'emploi du temps de l'école vers mon calendrier Apple apparaissait deux fois dans l'agenda. Nexus repère maintenant les doublons.
+- **Une journée qui finit à 3 h du matin.** Je me couche tard : un journal écrit à 1 h doit compter pour la bonne journée. La journée Nexus se termine donc à 3 h.
+- **Dire non à des fonctions.** J'avais prévu un module Projets, une liaison Notion et un suivi du temps d'écran. Je les ai retirés : l'appli devait rester simple pour que je l'ouvre vraiment tous les jours.
+- **Sécurité.** Chaque table est protégée (un seul compte autorisé, inscriptions fermées), et une mise à jour de Next.js a corrigé 7 failles connues.
+
+## Idées pour la suite
+
+- **Sport automatique** : importer mes séances depuis Hevy, pour que l'habitude Sport se coche toute seule.
+- **Sauvegarde automatique** chaque semaine (l'offre gratuite de Supabase n'en fait pas).
+- **Siri et Raccourcis** : « Dis Siri, ajoute une tâche à Nexus ».
+- **Widget sur l'écran d'accueil** de l'iPhone : le Top 3 du jour sans ouvrir l'appli.
+- **Bilan de la semaine écrit par une IA**, à partir de mon journal et de mes scores.
+- **Connexion par Face ID** (passkey), sans mot de passe.
 
 ## Auteur
 
