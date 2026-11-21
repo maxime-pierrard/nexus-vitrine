@@ -7,7 +7,7 @@ Agenda · Tâches et Top 3 · Habitudes · Journal du soir · Score et bilans ·
 
 *Appli web installable sur iPhone (PWA) · Next.js · Supabase · Vercel*
 
-### [▶ Essayer la démo](https://nexus-maxime-demo.vercel.app) · [🎬 Voir la vidéo](LIEN_VIDEO)
+### [▶ Essayer la démo](https://nexus-maxime-demo.vercel.app)
 
 *La démo utilise un compte fictif : tu peux tout toucher, rien n'est enregistré pour de vrai.*
 
@@ -37,14 +37,14 @@ J'ai donc écrit le cahier des charges de l'outil que je voulais : **une seule a
 
 <!-- Captures : toutes prises sur la démo, avec des données fictives -->
 <p align="center">
-  <img src="media/accueil.png" width="260" alt="Accueil : Top 3 et score" />
-  <img src="media/habitudes.png" width="260" alt="Habitudes et séries" />
-  <img src="media/agenda.png" width="260" alt="Agenda de la semaine" />
+  <img src="accueil.png" width="260" alt="Accueil : Top 3 et score" />
+  <img src="habitudes.png" width="260" alt="Habitudes et séries" />
+  <img src="agenda.png" width="260" alt="Agenda de la semaine" />
 </p>
 <p align="center">
-  <img src="media/bilans.png" width="260" alt="Bilans du mois" />
-  <img src="media/trading.png" width="260" alt="Journal de trading : courbe du capital" />
-  <img src="media/trading-stats.png" width="260" alt="Statistiques de trading" />
+  <img src="bilans.png" width="260" alt="Bilans du mois" />
+  <img src="trading.png" width="260" alt="Journal de trading : courbe du capital" />
+  <img src="trading-stats.png" width="260" alt="Statistiques de trading" />
 </p>
 
 ## Architecture
