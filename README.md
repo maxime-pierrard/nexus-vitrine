@@ -1,6 +1,8 @@
-<div align="center">
+<p align="center">
+  <img src="banniere.png" width="100%" alt="NEXUS · Planifier · Agir · Progresser" />
+</p>
 
-# NEXUS
+<div align="center">
 
 **Mon organisation de vie dans une seule appli, construite pour moi et utilisée tous les jours.**
 Agenda · Tâches et Top 3 · Habitudes · Journal du soir · Score et bilans · Journal de trading
