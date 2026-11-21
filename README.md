@@ -36,15 +36,16 @@ J'ai donc écrit le cahier des charges de l'outil que je voulais : **une seule a
 | **Journal de trading** | Un mode plein écran avec sa propre icône : plusieurs comptes, résultat en R par trade, sessions, captures, stats par setup, heure, jour et émotion, courbe du capital |
 
 <!-- Captures : toutes prises sur la démo, avec des données fictives -->
+### En images
+
 <p align="center">
-  <img src="accueil.png" width="260" alt="Accueil : Top 3 et score" />
-  <img src="habitudes.png" width="260" alt="Habitudes et séries" />
-  <img src="agenda.png" width="260" alt="Agenda de la semaine" />
+  <img src="apercu-nexus.png" width="820" alt="Accueil, agenda, habitudes, bilans, analyse et journal du soir" />
 </p>
+
+**Le mode Trading**
+
 <p align="center">
-  <img src="bilans.png" width="260" alt="Bilans du mois" />
-  <img src="trading.png" width="260" alt="Journal de trading : courbe du capital" />
-  <img src="trading-stats.png" width="260" alt="Statistiques de trading" />
+  <img src="apercu-trading.png" width="820" alt="Trading : capital, journal des trades et statistiques" />
 </p>
 
 ## Architecture
